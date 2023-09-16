@@ -31,7 +31,7 @@ cy.get('#email').type('Tks@exemplo,super.br')
 cy.get('#open-text-area').type('test')  
 cy.get('button[type="submit"]').click()
 
-cy.get('.error').should('be.visibl e')})
+cy.get('.error').should('be.visible')})
  
 })
 
